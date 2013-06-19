@@ -39,8 +39,7 @@ Spork.prefork do
     # rspec-rails.
     config.infer_base_class_for_anonymous_controllers = false
   end
-end 
-#Spork.prefork do
+end #Spork.prefork do
 
 Spork.each_run do
   # This code will be run each time you run your specs.
